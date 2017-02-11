@@ -1,0 +1,120 @@
+.full,.App,body,#root,html {
+  height: 100%;
+
+}
+
+.nopadding{
+  padding:0px;
+}
+
+
+.pin{
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: #FCD63C;
+  position: absolute;
+   -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.scoreText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.nameText{
+  margin-top: -30px;
+  margin-left:67px;
+/*  height:15px;
+  width: 70px;*/
+/*  border-radius: 4px;
+  border: 2px solid black;*/
+  /*background-color: white;*/
+  align-items: center;
+  display: flex; 
+  color: #7F7F7F; 
+}
+  /*justify-content: center;*/
+
+
+.markerContainer{
+  height:30px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  
+}
+
+.mapMarker{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px; 
+
+}
+
+.project_editor{
+  height:40%;
+  padding:10px;
+}
+
+#project{
+  background-color: #EDEDED;
+}
+
+#buildings{
+  background-color: #CA3333;
+}
+
+#header{
+  background-color: #ACE4F2;
+}
+
+#table{
+  height:60%;
+  overflow-y: scroll;
+}
+
+#PointEditor{
+  height:60%;
+  overflow-y: hidden;
+}
+
+#buttons{
+  height:30%;
+  overflow-y: hidden;
+}
+
+#mapsection{
+  display: block;
+  height: 60%;
+}
+
+
+#sections{
+  background-color: #3B92DB;  
+}
+
+.header {
+  background-color: #86E1F2;
+  height: 20%;
+  padding: 10px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

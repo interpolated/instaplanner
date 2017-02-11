@@ -1,0 +1,50 @@
+export const initialState = {
+  projects:{
+    byId:{
+      '111' :{
+        sections:['abda']
+      },
+      '222':{
+        sections:[]
+      }
+    },
+    allIds:['111','222']
+  },
+  types:{
+    byId:{
+      'comm':{
+        color:'red',
+        cost:1222
+      },
+      'resi':{
+        color:'blue',
+        cost:33
+      },
+      'mixed':{
+        color:'green',
+        cost:223
+      }
+    }
+  },
+  sections:{
+    byId:{
+    'abda':{
+      building:'br1',
+      rank:1,
+      type:'comm',
+    },
+    allIds:[]
+    }
+  },
+  geometries:{
+    byId:{    
+      'abda':{
+        type:'Polygon',
+        coordinates:[[[151.20917699999998,-33.87418200000001],[151.20918799999998,-33.87449],[151.20963,-33.874553999999996],[151.20961799999998,-33.87418300000001],[151.20917699999998,-33.87418200000001]]]    }
+      },
+    allIds:[]
+    },
+  activeProject:'111',
+  activeSection:'abda'
+}
+
